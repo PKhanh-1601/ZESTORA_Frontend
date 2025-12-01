@@ -1,0 +1,101 @@
+.profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.section-title {
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #444;
+}
+
+.profile-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0077ff;
+}
+
+.readonly-input {
+  background: #f5f5f5;
+  color: #777;
+}
+
+.btn {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background-color: #0077ff;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #005fcc;
+}
+
+.btn.danger {
+  background-color: #ff4b4b;
+  color: white;
+}
+
+.btn.danger:hover {
+  background-color: #d93a3a;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+/* Button logout */
+.btn.logout-btn {
+  background-color: #555;
+  color: white;
+}
+
+.btn.logout-btn:hover {
+  background-color: #333;
+}
