@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: "http://localhost:3000", // chỉ backend, không thêm /api
+  baseURL: "https://zestora-2zcr.onrender.com", // chỉ backend, không thêm /api
   headers: {
     "Content-Type": "application/json",
   },
